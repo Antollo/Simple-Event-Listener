@@ -35,7 +35,7 @@ When value of `predicate()` is true `handle()` is called.
 
 #### Example:
 
-_(Windows specific key press detection, paste `std::this_thread::sleep_for(std::chrono::seconds(5));` after following snippet when you are testing it to give your programm some time for event listening.)_
+_(Windows specific key press detection, paste `std::this_thread::sleep_for(std::chrono::seconds(5));` after following snippet when you are testing it to give your program some time for event listening.)_
 
 ```cpp
 auto listenerOfKeyA = makeEventListener([]{
