@@ -24,3 +24,8 @@ endif()
 
 file(GLOB SOURCES "*.cpp")
 add_executable(test ${SOURCES})
+
+IF("${CMAKE_SYSTEM}" MATCHES "Linux")
+message("LINUX :3")
+target_link_libraries(test pthread)
+endif()

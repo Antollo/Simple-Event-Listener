@@ -129,3 +129,4 @@ int main()
 
 1. Copy `eventListener.h` and `eventListener.cpp` to your project directory.
 2. Add `#include "eventListener.h"`.
+3. Remember to link with `pthread` on Linux.
